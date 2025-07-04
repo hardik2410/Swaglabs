@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-01T12:14:54 IST" name="Default suite" finished-at="2025-07-01T12:15:00 IST" duration-ms="6755">
+  <suite started-at="2025-07-04T13:28:21 IST" name="Default suite" finished-at="2025-07-04T13:28:28 IST" duration-ms="6951">
     <groups>
     </groups>
-    <test started-at="2025-07-01T12:14:54 IST" name="Default test" finished-at="2025-07-01T12:15:00 IST" duration-ms="6755">
-      <class name="testcases.checkouttestcase">
-        <test-method is-config="true" signature="settingup()[pri:0, instance:testcases.checkouttestcase@43bc63a3]" started-at="2025-07-01T12:14:54 IST" name="settingup" finished-at="2025-07-01T12:15:00 IST" duration-ms="6237" status="PASS">
+    <test started-at="2025-07-04T13:28:21 IST" name="Default test" finished-at="2025-07-04T13:28:28 IST" duration-ms="6951">
+      <class name="testcases.linksfinder">
+        <test-method is-config="true" signature="settingup()[pri:0, instance:testcases.linksfinder@43bc63a3]" started-at="2025-07-04T13:28:21 IST" name="settingup" finished-at="2025-07-04T13:28:28 IST" duration-ms="6604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- settingup -->
-        <test-method signature="checkingout()[pri:0, instance:testcases.checkouttestcase@43bc63a3]" started-at="2025-07-01T12:15:00 IST" name="checkingout" finished-at="2025-07-01T12:15:00 IST" duration-ms="485" status="PASS">
+        <test-method signature="findinglinks()[pri:0, instance:testcases.linksfinder@43bc63a3]" started-at="2025-07-04T13:28:28 IST" name="findinglinks" finished-at="2025-07-04T13:28:28 IST" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkingout -->
-      </class> <!-- testcases.checkouttestcase -->
+        </test-method> <!-- findinglinks -->
+      </class> <!-- testcases.linksfinder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
