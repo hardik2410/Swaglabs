@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -36,6 +37,12 @@ public class checkouttestcase extends baseswaglabs{
 	public void checkingout()
 	{
 		ct.checkingout();
+	}
+	
+	@AfterTest
+	public void quitting()
+	{
+		driver.quit();
 	}
 
 }
